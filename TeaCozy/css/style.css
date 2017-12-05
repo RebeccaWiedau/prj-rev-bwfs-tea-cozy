@@ -1,0 +1,152 @@
+/* Ordered from top to bottom */
+/* General */
+
+body {
+    background-color: black;
+    font-family: Helvetica, "FreeSans", sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    margin: 0;
+    text-align: center;
+}
+
+.flex_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* header-section */
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    z-index: 1;
+}
+
+#logo {
+    text-align: left;
+    padding-left: 10px;
+    height: 50px;
+}
+
+nav {
+    display: block;
+    text-align: right;
+    flex-grow: 1;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    text-align: right;
+}
+
+.nav_link {
+    color: seashell;
+}
+
+/* main-page */
+
+.main {
+    padding-top: 70px;
+}
+
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+}
+    
+/* mission section */
+
+#mission {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+}
+
+.mission_content {
+    width: 100%;
+    background-color: black;
+    margin: auto;
+    display: inline-block;
+}
+
+/* tea section */
+
+#tea {
+    width: 1000px;
+    height: 700px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+#tea h2,  #tea h4 {
+    width: 100%;
+}
+
+.tea_item span {
+    display: block;
+}
+    
+
+.tea_img {
+    height: 200px;
+    width: 300px;
+    padding: 5px;
+}
+
+/* location section */
+
+#locations {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+#locations h2 {
+    width: 100%;
+}
+
+.location1 {
+    opacity: 1;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    margin-top: 15px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.location2 {
+    opacity: 1;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.location h3 {
+    width: 280px;
+}
+
+/*contact section */
+
+.contact {
+    height: 200px;
+}
+
+/*footer */
+
+footer {
+    text-align: left;
+}
